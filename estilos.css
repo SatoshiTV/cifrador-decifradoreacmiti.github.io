@@ -1,0 +1,42 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.side {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    flex: 1;
+}
+
+input{
+    width: 200px;
+    height: 100px;
+    border-radius: 5%;
+    display: block;
+    margin-bottom: 15px;
+}
+
+button:hover{
+    background-color:aqua;
+}
+
+button{
+    margin-left: 35px;
+    background-color: greenyellow;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+body {
+    background-image: url('http://todofondos.com/bin/fondos/00/56/86d.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Mensaje</title>
+</head>
+<body>
+    <div class="container">
+        <div class="side left">
+            <h3>Mensaje Original</h3>
+            <input id="Mensaje" type="text">
+            <br><button onclick="cifrar()">Cifrar</button>
+            <h3>Mensaje Cifrado</h3>
+            <input id="MensajeCifrado" disabled type="text">
+        </div>
+
+        <div class="side right">
+            <h3>Mensaje Cifrado</h3>
+            <input id="MensajeDescifrar" type="text">
+            <br><button onclick="descifrar()">Descifrar</button>
+            <h3>Mensaje Original</h3>
+            <input id="MensajeOriginal" disabled type="text">
+        </div>
+    </div>
+    <script src="codigo.js"></script>
+</body>
+</html>
